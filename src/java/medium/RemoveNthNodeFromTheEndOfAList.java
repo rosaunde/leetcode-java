@@ -1,4 +1,4 @@
-package easy;
+package medium;
 
 import easy.util.ListNode;
 

@@ -1,4 +1,4 @@
-package easy;
+package medium;
 
 class WaterContainer {
     public static int maxArea(int[] height) {
