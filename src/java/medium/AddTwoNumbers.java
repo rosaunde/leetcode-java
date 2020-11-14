@@ -1,6 +1,6 @@
 package medium;
 
-import easy.util.ListNode;
+import util.ListNode;
 
 public class AddTwoNumbers {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {

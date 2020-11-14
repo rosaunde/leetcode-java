@@ -1,6 +1,6 @@
 package medium;
 
-import easy.util.ListNode;
+import util.ListNode;
 
 import java.util.HashMap;
 import java.util.Map;

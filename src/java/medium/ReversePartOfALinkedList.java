@@ -1,6 +1,6 @@
 package medium;
 
-import easy.util.ListNode;
+import util.ListNode;
 
 class ReversePartOfALinkedList {
     public ListNode reverseBetween(ListNode head, int m, int n) {

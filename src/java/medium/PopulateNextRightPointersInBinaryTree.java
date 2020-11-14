@@ -1,6 +1,6 @@
 package medium;
 
-import easy.util.Node;
+import util.Node;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,6 +1,6 @@
 package medium;
 
-import easy.util.ListNode;
+import util.ListNode;
 
 class LinkedListSwapPairs {
     public static ListNode swapPairs(ListNode head) {
