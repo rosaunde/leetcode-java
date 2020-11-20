@@ -1,6 +1,6 @@
 package easy;
 
-import easy.util.ListNode;
+import util.ListNode;
 
 import java.util.ArrayList;
 import java.util.List;

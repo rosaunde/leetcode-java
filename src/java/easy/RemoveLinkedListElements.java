@@ -1,6 +1,6 @@
 package easy;
 
-import easy.util.ListNode;
+import util.ListNode;
 
 public class RemoveLinkedListElements {
     public static ListNode removeElements(ListNode head, int val) {

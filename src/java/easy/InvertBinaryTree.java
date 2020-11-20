@@ -1,6 +1,6 @@
 package easy;
 
-import easy.util.TreeNode;
+import util.TreeNode;
 
 public class InvertBinaryTree {
     public static TreeNode invertTree(TreeNode root) {

@@ -1,6 +1,6 @@
 package easy;
 
-import easy.util.ListNode;
+import util.ListNode;
 
 import java.util.HashSet;
 import java.util.Set;

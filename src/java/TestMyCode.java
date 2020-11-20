@@ -1,15 +1,21 @@
 import easy.*;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 import static easy.TwoSum.twoSum;
 
 
 public class TestMyCode{
     public static void main(String[] args){
-        int[] nums = new int[]{2,7,15,4,2,3,5,11,9};
-        int target = 9;
-        int[] result = twoSum(nums, target);
-        Arrays.stream(result).forEach(inte -> System.out.println(inte));
+        String S = "asdfasdf\nasdfasdf\n asdf\n";
+        String[] rows = S.split("\n");
+
+        for(int i = 0; i < rows.length; i++){
+            System.out.println(rows[i]);
+        }
+        List<String>  asdfadsf = new ArrayList<>();
+        asdfadsf.removeIf(asdf -> S.equals(""));
     }
 }

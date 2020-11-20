@@ -1,6 +1,6 @@
 package easy;
 
-import easy.util.TreeNode;
+import util.TreeNode;
 
 public class SumRootToLeaf {
     public static boolean hasPathSum(TreeNode root, int sum) {

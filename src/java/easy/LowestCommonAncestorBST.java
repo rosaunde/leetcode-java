@@ -1,6 +1,6 @@
 package easy;
 
-import easy.util.TreeNode;
+import util.TreeNode;
 
 public class LowestCommonAncestorBST {
     public static TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {

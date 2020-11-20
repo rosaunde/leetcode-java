@@ -1,6 +1,6 @@
 package easy;
 
-import easy.util.ListNode;
+import util.ListNode;
 
 public class DeleteDuplicatesInASinglyLinkedList {
     public static ListNode deleteDuplicates(ListNode head) {

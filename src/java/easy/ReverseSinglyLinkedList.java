@@ -1,6 +1,6 @@
 package easy;
 
-import easy.util.ListNode;
+import util.ListNode;
 
 public class ReverseSinglyLinkedList {
     public static ListNode reverseList(ListNode head) {

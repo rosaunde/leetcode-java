@@ -1,7 +1,7 @@
 package easy;
 
 
-import easy.util.TreeNode;
+import util.TreeNode;
 
 public class SameTree {
     public static boolean isSameTree(TreeNode p, TreeNode q) {

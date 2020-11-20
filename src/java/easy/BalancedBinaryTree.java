@@ -1,6 +1,6 @@
 package easy;
 
-import easy.util.TreeNode;
+import util.TreeNode;
 
 public class BalancedBinaryTree {
     public static boolean isBalanced(TreeNode root) {

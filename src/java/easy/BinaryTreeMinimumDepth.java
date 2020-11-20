@@ -1,6 +1,6 @@
 package easy;
 
-import easy.util.TreeNode;
+import util.TreeNode;
 
 public class BinaryTreeMinimumDepth {
     public static int minDepth(TreeNode root) {

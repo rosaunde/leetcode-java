@@ -1,7 +1,7 @@
 package easy;
 
 
-import easy.util.ListNode;
+import util.ListNode;
 
 public class MergeTwoSortedLinkedLists {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {

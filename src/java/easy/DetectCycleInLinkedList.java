@@ -1,6 +1,6 @@
 package easy;
 
-import easy.util.ListNode;
+import util.ListNode;
 
 public class DetectCycleInLinkedList {
     public static boolean hasCycle(ListNode head) {
