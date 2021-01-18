@@ -5,7 +5,7 @@ import util.TreeNode;
 import java.util.HashMap;
 import java.util.Map;
 
-public class ConstructBinaryTreeFromPOIOTraversal {
+public class ConstructBinaryTreeFromInOrderPreOrderTraversal {
     private Map<Integer,Integer> inMap = new HashMap<>();
     private int pIndex = 0;
 
