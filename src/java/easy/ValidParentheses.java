@@ -1,29 +1,33 @@
 package easy;
 
-import java.util.Stack;
+import java.util.ArrayDeque;
+import java.util.Deque;
 
 public class ValidParentheses {
-    public static boolean isValid(String s) {
-        char[] chars = s.toCharArray();
-        Stack<Character> stack = new Stack<Character>();
-        for(int i = 0; i < chars.length; i++){
-            if(chars[i] == '(' || chars[i] == '[' || chars[i] == '{'){
-                stack.push(chars[i]);
-            } else if(chars[i] == ')'){
-                if(stack.empty() || stack.pop() != '('){
+    public boolean isValid(String s) {
+        Deque<Character> stack = new ArrayDeque<>();
+        for(int i = 0; i < s.length(); i++){
+            char myChar = s.charAt(i);
+            if(myChar == '(' || myChar == '{' || myChar == '['){
+                stack.push(myChar);
+            }else if(myChar == ')'){
+                if(stack.isEmpty() || stack.peekFirst() != '('){
                     return false;
                 }
-            } else if (chars[i] == ']'){
-                if(stack.empty() || stack.pop() != '['){
+                stack.pop();
+            } else if(myChar == '}'){
+                if(stack.isEmpty() || stack.peekFirst() != '{'){
                     return false;
                 }
-            } else if (chars[i] == '}'){
-                if(stack.empty() || stack.pop() != '{'){
+                stack.pop();
+            }  else if(myChar == ']'){
+                if(stack.isEmpty() || stack.peekFirst() != '['){
                     return false;
                 }
+                stack.pop();
             }
         }
-        if(stack.empty()){
+        if(stack.isEmpty()){
             return true;
         }
         return false;
