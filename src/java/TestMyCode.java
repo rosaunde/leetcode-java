@@ -9,13 +9,9 @@ import static easy.TwoSum.twoSum;
 
 public class TestMyCode{
     public static void main(String[] args){
-        String S = "asdfasdf\nasdfasdf\n asdf\n";
-        String[] rows = S.split("\n");
+        int x = 30;
+        int y = 15;
 
-        for(int i = 0; i < rows.length; i++){
-            System.out.println(rows[i]);
-        }
-        List<String>  asdfadsf = new ArrayList<>();
-        asdfadsf.removeIf(asdf -> S.equals(""));
+        System.out.println((3215%10000)/1000);
     }
 }
