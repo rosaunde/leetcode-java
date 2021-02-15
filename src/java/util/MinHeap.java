@@ -13,6 +13,13 @@ public class MinHeap {
         this.values = new int[capacity];
     }
 
+    public MinHeap(int[] arr){
+        this.capacity= arr.length;
+        this.size = arr.length;
+        this.values = arr;
+        buildMinHeap(arr);
+    }
+
     private void ensureExtraCapacity(){
         if(size == capacity) {
             Arrays.copyOf(values, capacity * 2);
@@ -31,12 +38,17 @@ public class MinHeap {
         int result = values[0];
         values[0] = values[size-1];
         size--;
-        heapifyDown();
+        heapifyDown(0);
         return result;
     }
 
-    private void heapifyDown(){
-        int index = 0;
+    private void buildMinHeap(int[] arr){
+        for(int i = arr.length-1; i>=0; i--){
+            heapifyDown(i);
+        }
+    }
+
+    private void heapifyDown(int index){
         while(hasLeftNode(index)){
             int smallerChildIndex = getLeftChildValue(index);
             if(hasRightNode(index) && getRightChildValue(index) < getLeftChildValue(index)) {
