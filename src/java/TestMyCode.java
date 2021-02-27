@@ -9,9 +9,8 @@ import static easy.TwoSum.twoSum;
 
 public class TestMyCode{
     public static void main(String[] args){
-        int x = 30;
-        int y = 15;
-
-        System.out.println((3215%10000)/1000);
+        String x = "aaf";
+        String y = x.replace("a", "");
+        System.out.println(y);
     }
 }
