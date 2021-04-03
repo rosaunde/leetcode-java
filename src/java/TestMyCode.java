@@ -9,8 +9,15 @@ import static easy.TwoSum.twoSum;
 
 public class TestMyCode{
     public static void main(String[] args){
-        String x = "aaf";
-        String y = x.replace("a", "");
-        System.out.println(y);
+       int result = 0;
+       for(int i = 1; i < 7; i++){
+           result = result ^ i;
+       }
+
+       for(int i = 2; i < 7; i++){
+           result = result ^ i;
+       }
+       System.out.println(3^3);
+       System.out.println(result);
     }
 }
